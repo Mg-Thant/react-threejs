@@ -32,6 +32,7 @@ const ServiceCard = ({ index, title, icon }) => {
   );
 };
 
+//fadeIn(direction, type, delay, duration)
 const About = () => {
   return (
     <>
@@ -39,7 +40,6 @@ const About = () => {
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Overview</h2>
       </motion.div>
-      //fadeIn(direction, type, delay, duration)
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="text-secondary text-[17px] max-w-3xl leading-[30px] ml-3"

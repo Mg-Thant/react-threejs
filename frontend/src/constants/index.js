@@ -204,15 +204,15 @@ import {
       tags: [
         {
           name: "react",
-          color: "blue-text-gradient",
+          color: "bg-gradient-to-r from-blue-300 to-blue-800 inline-block bg-clip-text text-transparent",
         },
         {
           name: "mongodb",
-          color: "green-text-gradient",
+          color: "bg-gradient-to-r from-green-800 to-green-300 inline-block bg-clip-text text-transparent",
         },
         {
           name: "tailwind",
-          color: "pink-text-gradient",
+          color: "bg-gradient-to-r from-pink-300 to-pink-800 inline-block bg-clip-text text-transparent",
         },
       ],
       image: carrent,
@@ -225,15 +225,15 @@ import {
       tags: [
         {
           name: "react",
-          color: "blue-text-gradient",
+          color: "bg-gradient-to-r from-blue-300 to-blue-800 inline-block bg-clip-text text-transparent",
         },
         {
           name: "restapi",
-          color: "green-text-gradient",
+          color: "bg-gradient-to-r from-green-800 to-green-300 inline-block bg-clip-text text-transparent",
         },
         {
           name: "scss",
-          color: "pink-text-gradient",
+          color: "bg-gradient-to-r from-pink-300 to-pink-800 inline-block bg-clip-text text-transparent",
         },
       ],
       image: jobit,
@@ -246,15 +246,15 @@ import {
       tags: [
         {
           name: "nextjs",
-          color: "blue-text-gradient",
+          color: "bg-gradient-to-r from-blue-300 to-blue-800 inline-block bg-clip-text text-transparent",
         },
         {
           name: "supabase",
-          color: "green-text-gradient",
+          color: "bg-gradient-to-r from-green-800 to-green-300 inline-block bg-clip-text text-transparent",
         },
         {
           name: "css",
-          color: "pink-text-gradient",
+          color: "bg-gradient-to-r from-pink-300 to-pink-800 inline-block bg-clip-text text-transparent",
         },
       ],
       image: tripguide,
