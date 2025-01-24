@@ -18,9 +18,7 @@ function App() {
   ])
 
   return (
-    <div className="relative bg-primary z-0">
       <RouterProvider router={router} />
-    </div>
   )
 }
 

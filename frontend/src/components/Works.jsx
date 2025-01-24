@@ -63,11 +63,11 @@ const ProjectCard = ({
 const Works = () => {
   return (
     <>
-      <motion.div variants={textVariant()} className="ml-48">
+      <motion.div variants={textVariant()}>
         <p className={styles.heroSubText}>My work</p>
         <h3 className={styles.heroHeadText}>Projects</h3>
       </motion.div>
-      <div className="w-full flex ml-48">
+      <div className="w-full flex">
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
@@ -79,7 +79,7 @@ const Works = () => {
           and manage projects effectively.
         </motion.p>
       </div>
-      <div className="mt-20 flex flex-wrap gap-7 ml-48">
+      <div className="mt-20 flex flex-wrap gap-7">
         {projects.map((project, index) => (
           <ProjectCard key={index} {...project} />
         ))}
@@ -88,4 +88,4 @@ const Works = () => {
   );
 };
 
-export default Works;
+export default SectionWrapper(Works, "");

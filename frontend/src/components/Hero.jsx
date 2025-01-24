@@ -16,7 +16,7 @@ import { styles } from "../style";
 const Hero = () => {
   return (
     <>
-      <div className="relative z-0 bg-primary">
+      <div className="relative z-0">
         <section className="relative w-full h-screen mx-auto bg-hero-pattern bg-cover bg-no-repeat bg-center">
           <div
             className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`}
